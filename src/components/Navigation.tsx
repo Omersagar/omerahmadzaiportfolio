@@ -53,13 +53,14 @@ const Navigation = () => {
             ))}
           </ol>
           <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 border border-primary text-primary font-mono text-sm rounded hover:bg-green-tint transition-colors"
-          >
-            Resume
-          </a>
+  href={`${process.env.PUBLIC_URL}/Resume.pdf`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-4 py-2 border border-primary text-primary font-mono text-sm rounded hover:bg-green-tint transition-colors"
+>
+  Resume
+</a>
+
         </div>
 
         {/* Mobile Menu Button */}
